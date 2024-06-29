@@ -15,5 +15,3 @@ def caesar_cipher(string, shift_factor)
     new_arr = shifted_ords.map { |letter| letter.chr }
     new_arr.join
   end
-  
-  puts caesar_cipher('Nice butt!', 492)
